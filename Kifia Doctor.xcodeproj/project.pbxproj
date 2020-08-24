@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18070CE124DED613009F81AC /* MoreDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070CE024DED613009F81AC /* MoreDetailsVC.swift */; };
+		18070CE324DEF280009F81AC /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18070CE224DEF280009F81AC /* ReviewsVC.swift */; };
+		182D896D24F3A42900B7462C /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D896C24F3A42900B7462C /* ForgotPassword.swift */; };
+		182D896F24F3DEBA00B7462C /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D896E24F3DEBA00B7462C /* Prescription.swift */; };
+		1830F20C24E0FC0600164CBF /* BtnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F20B24E0FC0600164CBF /* BtnCollectionViewCell.swift */; };
+		1830F20E24E0FD3D00164CBF /* PatientDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F20D24E0FD3D00164CBF /* PatientDetailsTableViewCell.swift */; };
+		1830F21024E116E500164CBF /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F20F24E116E500164CBF /* extensions.swift */; };
+		1830F21224E11D0300164CBF /* AddPrescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F21124E11D0300164CBF /* AddPrescriptionTableViewCell.swift */; };
+		1830F21424E1335E00164CBF /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F21324E1335E00164CBF /* HistoryTableViewCell.swift */; };
+		1830F21624E14B9700164CBF /* MoreDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F21524E14B9700164CBF /* MoreDetailsTableViewCell.swift */; };
+		1830F21824E1563B00164CBF /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F21724E1563B00164CBF /* ReviewsTableViewCell.swift */; };
+		18399D1E24DD59B10008ABDF /* Add_PrescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18399D1D24DD59B10008ABDF /* Add_PrescriptionVC.swift */; };
+		18399D2024DD746F0008ABDF /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18399D1F24DD746F0008ABDF /* EditProfileVC.swift */; };
+		18399D2224DD74DA0008ABDF /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18399D2124DD74DA0008ABDF /* HistoryVC.swift */; };
+		185727EF24EE4CC000D54A69 /* IsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185727EE24EE4CC000D54A69 /* IsValidEmail.swift */; };
+		185727F224EE4D6700D54A69 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185727F124EE4D6700D54A69 /* Alert.swift */; };
+		185727F424EE4E1600D54A69 /* Tost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185727F324EE4E1600D54A69 /* Tost.swift */; };
+		185727F624EE5BCC00D54A69 /* OTPVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185727F524EE5BCC00D54A69 /* OTPVerifyVC.swift */; };
+		185727F824EE78AF00D54A69 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185727F724EE78AF00D54A69 /* LoginModel.swift */; };
+		18DEBECC24EB901300C74325 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEBECB24EB901300C74325 /* SideBarTableViewController.swift */; };
+		18E003D324DBB6F5001142D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003D224DBB6F5001142D7 /* AppDelegate.swift */; };
+		18E003D524DBB6F5001142D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003D424DBB6F5001142D7 /* SceneDelegate.swift */; };
+		18E003D724DBB6F5001142D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003D624DBB6F5001142D7 /* ViewController.swift */; };
+		18E003DA24DBB6F5001142D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E003D824DBB6F5001142D7 /* Main.storyboard */; };
+		18E003DC24DBB6F8001142D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E003DB24DBB6F8001142D7 /* Assets.xcassets */; };
+		18E003DF24DBB6F8001142D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E003DD24DBB6F8001142D7 /* LaunchScreen.storyboard */; };
+		18E003E724DBBC9C001142D7 /* SpalshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003E624DBBC9C001142D7 /* SpalshViewController.swift */; };
+		18E003E924DBC763001142D7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003E824DBC763001142D7 /* LoginVC.swift */; };
+		18E003EB24DBD150001142D7 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003EA24DBD150001142D7 /* SignUpVC.swift */; };
+		18E003ED24DBF043001142D7 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003EC24DBF043001142D7 /* ForgotPasswordVC.swift */; };
+		18E003EF24DC152C001142D7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003EE24DC152C001142D7 /* ResetPasswordVC.swift */; };
+		18E003F124DC3DD4001142D7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E003F024DC3DD4001142D7 /* HomeVC.swift */; };
+		18E6B47B24ED515900C0BE1F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6B47A24ED515900C0BE1F /* WebService.swift */; };
+		18E6B47E24ED586F00C0BE1F /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6B47D24ED586F00C0BE1F /* SignUpModel.swift */; };
+		18E6B48024ED60AC00C0BE1F /* ApiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E6B47F24ED60AC00C0BE1F /* ApiList.swift */; };
+		18FF3D3324EFB065005AFD29 /* RegisterCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF3D3224EFB065005AFD29 /* RegisterCheck.swift */; };
+		18FF3D3524EFCE08005AFD29 /* OTPverified.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FF3D3424EFCE08005AFD29 /* OTPverified.swift */; };
+		CB24DCEBF33B967909D170FF /* Pods_Kifia_Doctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D9233F44D34923A94EA499 /* Pods_Kifia_Doctor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08233786A5136E2E49377937 /* Pods-Kifia Doctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kifia Doctor.debug.xcconfig"; path = "Target Support Files/Pods-Kifia Doctor/Pods-Kifia Doctor.debug.xcconfig"; sourceTree = "<group>"; };
+		18070CE024DED613009F81AC /* MoreDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsVC.swift; sourceTree = "<group>"; };
+		18070CE224DEF280009F81AC /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		182D896C24F3A42900B7462C /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		182D896E24F3DEBA00B7462C /* Prescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prescription.swift; sourceTree = "<group>"; };
+		1830F20B24E0FC0600164CBF /* BtnCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnCollectionViewCell.swift; sourceTree = "<group>"; };
+		1830F20D24E0FD3D00164CBF /* PatientDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1830F20F24E116E500164CBF /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		1830F21124E11D0300164CBF /* AddPrescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPrescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		1830F21324E1335E00164CBF /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		1830F21524E14B9700164CBF /* MoreDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		1830F21724E1563B00164CBF /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		18399D1D24DD59B10008ABDF /* Add_PrescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_PrescriptionVC.swift; sourceTree = "<group>"; };
+		18399D1F24DD746F0008ABDF /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		18399D2124DD74DA0008ABDF /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		185727EE24EE4CC000D54A69 /* IsValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidEmail.swift; sourceTree = "<group>"; };
+		185727F124EE4D6700D54A69 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		185727F324EE4E1600D54A69 /* Tost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tost.swift; sourceTree = "<group>"; };
+		185727F524EE5BCC00D54A69 /* OTPVerifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerifyVC.swift; sourceTree = "<group>"; };
+		185727F724EE78AF00D54A69 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		18DEBECB24EB901300C74325 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		18E003CF24DBB6F5001142D7 /* Kifia Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kifia Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E003D224DBB6F5001142D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E003D424DBB6F5001142D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E003D624DBB6F5001142D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E003D924DBB6F5001142D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E003DB24DBB6F8001142D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E003DE24DBB6F8001142D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E003E024DBB6F8001142D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E003E624DBBC9C001142D7 /* SpalshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshViewController.swift; sourceTree = "<group>"; };
+		18E003E824DBC763001142D7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		18E003EA24DBD150001142D7 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		18E003EC24DBF043001142D7 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		18E003EE24DC152C001142D7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		18E003F024DC3DD4001142D7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18E6B47A24ED515900C0BE1F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		18E6B47D24ED586F00C0BE1F /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		18E6B47F24ED60AC00C0BE1F /* ApiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiList.swift; sourceTree = "<group>"; };
+		18FF3D3224EFB065005AFD29 /* RegisterCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCheck.swift; sourceTree = "<group>"; };
+		18FF3D3424EFCE08005AFD29 /* OTPverified.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPverified.swift; sourceTree = "<group>"; };
+		A9D9233F44D34923A94EA499 /* Pods_Kifia_Doctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kifia_Doctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF137FE52461795F88BAEC /* Pods-Kifia Doctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kifia Doctor.release.xcconfig"; path = "Target Support Files/Pods-Kifia Doctor/Pods-Kifia Doctor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E003CC24DBB6F5001142D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB24DCEBF33B967909D170FF /* Pods_Kifia_Doctor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185727ED24EE4C9100D54A69 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				185727EE24EE4CC000D54A69 /* IsValidEmail.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		185727F024EE4CEF00D54A69 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				185727F124EE4D6700D54A69 /* Alert.swift */,
+				185727F324EE4E1600D54A69 /* Tost.swift */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		18E003C624DBB6F5001142D7 = {
+			isa = PBXGroup;
+			children = (
+				18E003D124DBB6F5001142D7 /* Kifia Doctor */,
+				18E003D024DBB6F5001142D7 /* Products */,
+				2C936C2EE1713131E0DDCD6A /* Pods */,
+				3468888A43BA48577932B0A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E003D024DBB6F5001142D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E003CF24DBB6F5001142D7 /* Kifia Doctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E003D124DBB6F5001142D7 /* Kifia Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				185727F024EE4CEF00D54A69 /* AlertController */,
+				185727ED24EE4C9100D54A69 /* Constants */,
+				18E6B47C24ED584000C0BE1F /* Models */,
+				18E6B47924ED509C00C0BE1F /* ApiService */,
+				18FF3D3124EF8855005AFD29 /* Extensions */,
+				1830F20F24E116E500164CBF /* extensions.swift */,
+				18E003D224DBB6F5001142D7 /* AppDelegate.swift */,
+				18E003D424DBB6F5001142D7 /* SceneDelegate.swift */,
+				18E003D624DBB6F5001142D7 /* ViewController.swift */,
+				18E003E624DBBC9C001142D7 /* SpalshViewController.swift */,
+				18E003E824DBC763001142D7 /* LoginVC.swift */,
+				18E003EA24DBD150001142D7 /* SignUpVC.swift */,
+				185727F524EE5BCC00D54A69 /* OTPVerifyVC.swift */,
+				18E003F024DC3DD4001142D7 /* HomeVC.swift */,
+				18DEBECB24EB901300C74325 /* SideBarTableViewController.swift */,
+				18399D1D24DD59B10008ABDF /* Add_PrescriptionVC.swift */,
+				18399D1F24DD746F0008ABDF /* EditProfileVC.swift */,
+				18070CE024DED613009F81AC /* MoreDetailsVC.swift */,
+				18070CE224DEF280009F81AC /* ReviewsVC.swift */,
+				18399D2124DD74DA0008ABDF /* HistoryVC.swift */,
+				18E003EC24DBF043001142D7 /* ForgotPasswordVC.swift */,
+				18E003EE24DC152C001142D7 /* ResetPasswordVC.swift */,
+				1830F20B24E0FC0600164CBF /* BtnCollectionViewCell.swift */,
+				1830F20D24E0FD3D00164CBF /* PatientDetailsTableViewCell.swift */,
+				1830F21124E11D0300164CBF /* AddPrescriptionTableViewCell.swift */,
+				1830F21324E1335E00164CBF /* HistoryTableViewCell.swift */,
+				1830F21524E14B9700164CBF /* MoreDetailsTableViewCell.swift */,
+				1830F21724E1563B00164CBF /* ReviewsTableViewCell.swift */,
+				18E003D824DBB6F5001142D7 /* Main.storyboard */,
+				18E003DB24DBB6F8001142D7 /* Assets.xcassets */,
+				18E003DD24DBB6F8001142D7 /* LaunchScreen.storyboard */,
+				18E003E024DBB6F8001142D7 /* Info.plist */,
+			);
+			path = "Kifia Doctor";
+			sourceTree = "<group>";
+		};
+		18E6B47924ED509C00C0BE1F /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				18E6B47A24ED515900C0BE1F /* WebService.swift */,
+				18E6B47F24ED60AC00C0BE1F /* ApiList.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		18E6B47C24ED584000C0BE1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18E6B47D24ED586F00C0BE1F /* SignUpModel.swift */,
+				185727F724EE78AF00D54A69 /* LoginModel.swift */,
+				18FF3D3224EFB065005AFD29 /* RegisterCheck.swift */,
+				18FF3D3424EFCE08005AFD29 /* OTPverified.swift */,
+				182D896C24F3A42900B7462C /* ForgotPassword.swift */,
+				182D896E24F3DEBA00B7462C /* Prescription.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FF3D3124EF8855005AFD29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C936C2EE1713131E0DDCD6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08233786A5136E2E49377937 /* Pods-Kifia Doctor.debug.xcconfig */,
+				B0CF137FE52461795F88BAEC /* Pods-Kifia Doctor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3468888A43BA48577932B0A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D9233F44D34923A94EA499 /* Pods_Kifia_Doctor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E003CE24DBB6F5001142D7 /* Kifia Doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E003E324DBB6F8001142D7 /* Build configuration list for PBXNativeTarget "Kifia Doctor" */;
+			buildPhases = (
+				EF31F75F7B660597551C9B8B /* [CP] Check Pods Manifest.lock */,
+				18E003CB24DBB6F5001142D7 /* Sources */,
+				18E003CC24DBB6F5001142D7 /* Frameworks */,
+				18E003CD24DBB6F5001142D7 /* Resources */,
+				460A761197E8FAA111BEEF38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kifia Doctor";
+			productName = "Kifia Doctor";
+			productReference = 18E003CF24DBB6F5001142D7 /* Kifia Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E003C724DBB6F5001142D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E003CE24DBB6F5001142D7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 18E003CA24DBB6F5001142D7 /* Build configuration list for PBXProject "Kifia Doctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E003C624DBB6F5001142D7;
+			productRefGroup = 18E003D024DBB6F5001142D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E003CE24DBB6F5001142D7 /* Kifia Doctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E003CD24DBB6F5001142D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E003DF24DBB6F8001142D7 /* LaunchScreen.storyboard in Resources */,
+				18E003DC24DBB6F8001142D7 /* Assets.xcassets in Resources */,
+				18E003DA24DBB6F5001142D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		460A761197E8FAA111BEEF38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kifia Doctor/Pods-Kifia Doctor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kifia Doctor/Pods-Kifia Doctor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kifia Doctor/Pods-Kifia Doctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF31F75F7B660597551C9B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kifia Doctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E003CB24DBB6F5001142D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18070CE124DED613009F81AC /* MoreDetailsVC.swift in Sources */,
+				1830F21024E116E500164CBF /* extensions.swift in Sources */,
+				1830F21824E1563B00164CBF /* ReviewsTableViewCell.swift in Sources */,
+				185727F424EE4E1600D54A69 /* Tost.swift in Sources */,
+				18E6B47E24ED586F00C0BE1F /* SignUpModel.swift in Sources */,
+				18E003D724DBB6F5001142D7 /* ViewController.swift in Sources */,
+				185727EF24EE4CC000D54A69 /* IsValidEmail.swift in Sources */,
+				185727F624EE5BCC00D54A69 /* OTPVerifyVC.swift in Sources */,
+				18399D2224DD74DA0008ABDF /* HistoryVC.swift in Sources */,
+				182D896F24F3DEBA00B7462C /* Prescription.swift in Sources */,
+				18E003ED24DBF043001142D7 /* ForgotPasswordVC.swift in Sources */,
+				18399D1E24DD59B10008ABDF /* Add_PrescriptionVC.swift in Sources */,
+				185727F224EE4D6700D54A69 /* Alert.swift in Sources */,
+				18E003D324DBB6F5001142D7 /* AppDelegate.swift in Sources */,
+				18FF3D3524EFCE08005AFD29 /* OTPverified.swift in Sources */,
+				18E6B48024ED60AC00C0BE1F /* ApiList.swift in Sources */,
+				1830F21224E11D0300164CBF /* AddPrescriptionTableViewCell.swift in Sources */,
+				18070CE324DEF280009F81AC /* ReviewsVC.swift in Sources */,
+				18E6B47B24ED515900C0BE1F /* WebService.swift in Sources */,
+				18DEBECC24EB901300C74325 /* SideBarTableViewController.swift in Sources */,
+				18FF3D3324EFB065005AFD29 /* RegisterCheck.swift in Sources */,
+				1830F21624E14B9700164CBF /* MoreDetailsTableViewCell.swift in Sources */,
+				18E003F124DC3DD4001142D7 /* HomeVC.swift in Sources */,
+				18E003D524DBB6F5001142D7 /* SceneDelegate.swift in Sources */,
+				18E003E724DBBC9C001142D7 /* SpalshViewController.swift in Sources */,
+				1830F20C24E0FC0600164CBF /* BtnCollectionViewCell.swift in Sources */,
+				18E003EB24DBD150001142D7 /* SignUpVC.swift in Sources */,
+				18E003E924DBC763001142D7 /* LoginVC.swift in Sources */,
+				185727F824EE78AF00D54A69 /* LoginModel.swift in Sources */,
+				1830F21424E1335E00164CBF /* HistoryTableViewCell.swift in Sources */,
+				18E003EF24DC152C001142D7 /* ResetPasswordVC.swift in Sources */,
+				1830F20E24E0FD3D00164CBF /* PatientDetailsTableViewCell.swift in Sources */,
+				18399D2024DD746F0008ABDF /* EditProfileVC.swift in Sources */,
+				182D896D24F3A42900B7462C /* ForgotPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E003D824DBB6F5001142D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E003D924DBB6F5001142D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E003DD24DBB6F8001142D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E003DE24DBB6F8001142D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E003E124DBB6F8001142D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E003E224DBB6F8001142D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E003E424DBB6F8001142D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08233786A5136E2E49377937 /* Pods-Kifia Doctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kifia Doctor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GS.Kifia-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E003E524DBB6F8001142D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CF137FE52461795F88BAEC /* Pods-Kifia Doctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kifia Doctor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GS.Kifia-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E003CA24DBB6F5001142D7 /* Build configuration list for PBXProject "Kifia Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E003E124DBB6F8001142D7 /* Debug */,
+				18E003E224DBB6F8001142D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E003E324DBB6F8001142D7 /* Build configuration list for PBXNativeTarget "Kifia Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E003E424DBB6F8001142D7 /* Debug */,
+				18E003E524DBB6F8001142D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E003C724DBB6F5001142D7 /* Project object */;
+}
